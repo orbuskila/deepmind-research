@@ -50,3 +50,4 @@ tensorflow-probability==0.11.1
 termcolor==1.1.0
 toolz==0.11.1
 tqdm==4.50.0
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
