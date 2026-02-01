@@ -5,3 +5,4 @@ pillow>=4.3.0
 tensorflow>=1.15,<2
 # tensorflow-gpu >= 1.15.0,<2  # GPU version of TensorFlow.
 tensorflow-hub>=0.5.0
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
