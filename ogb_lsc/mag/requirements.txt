@@ -21,3 +21,5 @@ annoy>=1.0.3
 # jraph
 git+git://github.com/deepmind/jraph.git@80d2f9e4d82f841a71d56ba44fa9e8781e93ae1f
 google-cloud-storage
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
