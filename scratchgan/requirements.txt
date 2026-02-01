@@ -7,3 +7,4 @@ tensorflow-gan == 1.0.0.dev0
 tensorflow-hub == 0.6.0
 tensorflow-io == 0.8.0
 tensorflow-gpu==1.15
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
