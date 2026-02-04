@@ -7,3 +7,5 @@ seaborn
 pymongo
 jupyterlab
 git+git://github.com/deepmind/multi_object_datasets.git
+nbconvert>=7.17.0 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=6.33.5 # not directly required, pinned by Snyk to avoid a vulnerability
