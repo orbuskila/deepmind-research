@@ -19,3 +19,4 @@ jaxlib>=0.1.67+cuda110
 # jraph
 git+git://github.com/deepmind/jraph.git@80d2f9e4d82f841a71d56ba44fa9e8781e93ae1f
 google-cloud-storage
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
