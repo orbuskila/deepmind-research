@@ -13,3 +13,5 @@ tensorflow-datasets>=4.1.0
 tensorflow-probability>=0.12.1
 typing_extensions>=3.7
 wrapt>=1.11.2
+protobuf>=5.29.6 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
